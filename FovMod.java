@@ -24,21 +24,19 @@ public class FovMod extends ModDraggable {
 	    }
 	    
 
-	@Override
-	public void render(ScreenPosition pos) {
-		if(Client.ModFOV == true) {
-			font.drawString("[fov mod On]", pos.getAbsoluteX(), pos.getAbsoluteY(), -1);
+
+		@Override
+		public void render(ScreenPosition pos) {
+			// font.drawString("[fov mod On]", pos.getAbsoluteX(), pos.getAbsoluteY(), -1);
 			savedFOV = Minecraft.getMinecraft().gameSettings.fovSetting;
 			if(mc.thePlayer.isSprinting()) {
 				Minecraft.getMinecraft().gameSettings.fovSetting = savedFOV;
-			}
+				}
 			else if(mc.thePlayer.isPotionActive(1)) {
 				Minecraft.getMinecraft().gameSettings.fovSetting = savedFOV;
 			}
-		
-			
-			}
 		}
+	}
 				
 			
-	}
+	
