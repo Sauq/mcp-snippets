@@ -35,6 +35,9 @@ public class FovMod extends ModDraggable {
 			else if(mc.thePlayer.isPotionActive(1)) {
 				Minecraft.getMinecraft().gameSettings.fovSetting = savedFOV;
 			}
+			else if(mc.thePlayer.capabilities.isFlying) {
+				Minecraft.getMinecraft().gameSettings.fovSetting = savedFOV;
+		}
 		}
 	}
 				
