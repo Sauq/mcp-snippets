@@ -14,7 +14,7 @@ public class FovMod extends ModDraggable {
 
 	 public int getWidth()
 	    {
-		 return font.getStringWidth("[Fullbright On]");
+		 return font.getStringWidth("[FOV Mod On]");
 	    }
 
 	    @Override
