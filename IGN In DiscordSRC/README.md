@@ -1,3 +1,3 @@
 # Simple IGN In Discord SRC
-- Go to GuiConnecting
+- Add the line to GuiConnecting
 - Credit is not needed
