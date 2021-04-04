@@ -24,7 +24,9 @@ public class SkinChangerArmy implements LayerRenderer<AbstractClientPlayer>{
     public void doRenderLayer(AbstractClientPlayer entitylivingbaseIn, float p_1771412111, float p_1771413111,
             float partialTicks, float p_1771415111, float p_1771416111, float p_1771417111, float scale) {
         if(Client.SkinChangerArmy) {
-            Minecraft.getMinecraft().getTextureManager().bindTexture(new ResourceLocation("armyskin")); //Example with an Army Skin
+        	String ign = Minecraft.getMinecraft().getSession().getProfile().getName();
+        	if (entitylivingbaseIn.getName().equals(ign) && !entitylivingbaseIn.isInvisible()) {
+            Minecraft.getMinecraft().getTextureManager().bindTexture(new ResourceLocation("army.png"));
             GlStateManager.enableNormalize();
             GlStateManager.enableBlend();
             GlStateManager.blendFunc(770, 771);
@@ -33,7 +35,9 @@ public class SkinChangerArmy implements LayerRenderer<AbstractClientPlayer>{
             GlStateManager.disableBlend();
             GlStateManager.disableNormalize();
         }
-
+        	
+      }
+        	
     }
 
     @Override
