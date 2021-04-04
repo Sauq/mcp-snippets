@@ -11,4 +11,4 @@ public static int RainbowEffect(int i, float f) {
 
 //And Replace 'int i = this.isEnabled ? this.enabledColor : this.disabledColor;' with:
 
-int i = this.isEnabled ? Cleint.RainbowEffect : this.disabledColor;
+int i = this.isEnabled ? Client.RainbowEffect : this.disabledColor;
