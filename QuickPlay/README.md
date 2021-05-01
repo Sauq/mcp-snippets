@@ -3,7 +3,7 @@
 
 - Crediting would be nice but you dont have to!
 
-- Instrucions:
+## Instrucions:
 - Put the QuickPlay folder with images in your client assets folder
 - Open the TransparentButton Folder and put the class in your client/src/net/minecraft/client/gui/
 - Make a Keybind in GameSettings.java called CLIENT_QUICKPLAY
