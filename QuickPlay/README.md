@@ -1,5 +1,5 @@
 # Quick Play
-- This took me ages so if you could subscribe (https://www.youtube.com/channel/UCasgtGl0LX5gTgvVAFpvr5g) That would be great! I upload alot of MCP and other usefull things!
+- This took me ages so if you could subscribe (https://www.youtube.com/channel/UCasgtGl0LX5gTgvVAFpvr5g) That would be great! I upload alot of MCP and other useful things!
 
 - Crediting would be nice but you dont have to!
 
