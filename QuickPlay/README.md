@@ -9,6 +9,10 @@
 - Open the TransparentButton Folder and put the class in your client/src/net/minecraft/client/gui/
 - Make a Keybind in GameSettings.java called CLIENT_QUICKPLAY
 - Put all of the remaining classes into your mod packages
+- Add this to your client.java in your onTick method``` if (Minecraft.getMinecraft().gameSettings.CLIENT_QUICKPLAY.isPressed()) {
+			Minecraft.getMinecraft().displayGuiScreen(new ModQuickPlay(modQuickPlay));
+		}
+```
 - Click your set keybind in game and it should come up!
 
 
