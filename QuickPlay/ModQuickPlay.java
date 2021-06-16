@@ -200,7 +200,7 @@ public class ModQuickPlay extends GuiScreen {
 			Minecraft.getMinecraft().thePlayer.sendChatMessage("/home");
 			break;
 		case 10004:
-			Minecraft.getMinecraft().thePlayer.sendChatMessage("/l sb");
+			Minecraft.getMinecraft().thePlayer.sendChatMessage("/skyblock");
 			break;
 		case 10005:
 			this.mc.displayGuiScreen(new TNTQuickPlay(this));
